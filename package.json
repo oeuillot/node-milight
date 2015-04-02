@@ -1,0 +1,25 @@
+{
+  "name": "node-milight",
+  "description": "A node.js milight library.",
+  "keywords": [
+    "milight",
+    "nodjes",
+    "rgb"
+  ],
+  "version": "0.0.1",
+  "author": "Olivier Oeuillot",
+  "dependencies": {
+    "semaphore": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:oeuillot/node-milight.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oeuillot/node-milight/issues"
+  },
+  "main": "./lib/milight",
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
