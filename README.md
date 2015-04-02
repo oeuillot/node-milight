@@ -1,2 +1,2 @@
-# Nodejs-AppLamp
-Nodejs for AppLamp, LimitlessLED  RGB lights
+# Nodejs-Milight
+Nodejs for Milight RGB lights 
