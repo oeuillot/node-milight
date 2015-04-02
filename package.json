@@ -3,7 +3,8 @@
   "description": "A node.js milight library.",
   "keywords": [
     "milight",
-    "nodjes",
+    "nodejs",
+    "light",
     "rgb"
   ],
   "version": "0.0.1",
