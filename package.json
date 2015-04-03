@@ -1,5 +1,5 @@
 {
-  "name": "node-milight",
+  "name": "milight",
   "description": "A node.js milight library.",
   "keywords": [
     "milight",
@@ -10,7 +10,8 @@
   "version": "0.0.1",
   "author": "Olivier Oeuillot",
   "dependencies": {
-    "semaphore": "latest"
+    "semaphore": "latest",
+    "async": "latest"
   },
   "repository": {
     "type": "git",
