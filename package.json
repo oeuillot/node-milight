@@ -7,12 +7,12 @@
     "light",
     "rgb"
   ],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Olivier Oeuillot",
   "dependencies": {
-    "semaphore": "1.0",
-    "async": "1.3",
-    "debug": "2.2"
+    "semaphore": "~1.0",
+    "async": "latest",
+    "debug": "latest"
   },
   "repository": {
     "type": "git",
