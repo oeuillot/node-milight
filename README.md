@@ -3,6 +3,9 @@ Nodejs for Milight RGB lights
 
 Beware: there is no acknowledge from the milight module ! 
 
+New in version 2: Each method support both callback and Promise.
+You can specify a callback, or use the Promise which is returned by the method. 
+
 ## Installation
 
     $ npm install milight
@@ -24,8 +27,15 @@ milight.on();
 milight.zone(1).rgb("#FF0000");
 
 // Zone 2 and 3: white light 50%
-milight.zone([2,3]).white(50, function(error) {
+milight.zone([2,3]).white(50, (error) => {
   // Command sent !
+});
+
+// You can use promise
+milight.off().then(() => {
+	// Command sent
+}, (error) => {
+	// Error ?
 });
 
 ```
